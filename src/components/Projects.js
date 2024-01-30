@@ -15,12 +15,14 @@ function Projects() {
             title:"Gamerk",
             description:"Web Application Site",
             imgUrl: projImg1,
+            url:'https://gamerk-site-c85030d2267e.herokuapp.com/',
             type:1
         },
         {
             title:"Bernini Introduction",
             description:"Web Design Site",
             imgUrl: projImg2,
+            url:'https://crispyanks.github.io/bernini-design/',
             type:2
         },
        
