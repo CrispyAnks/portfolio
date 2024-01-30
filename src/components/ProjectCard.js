@@ -1,6 +1,6 @@
-import {React, useEffect} from 'react';
+import {React} from 'react';
 import { Col } from 'react-bootstrap';
-import { motion, useAnimation } from 'framer-motion';
+import { motion} from 'framer-motion';
 
 
 function ProjectCard(project) {
@@ -8,6 +8,7 @@ function ProjectCard(project) {
   return (
     <>
       <Col>
+      <a href={project.project.url} target='blank'>
       <motion.div
                                 initial={{ x: 0, y: 50 }}
                                 whileInView={{x:0, y:0}}                                
@@ -20,7 +21,8 @@ function ProjectCard(project) {
               <span>{project.project.description}</span>
           </div>
       </div>  
-      </motion.div>         
+      </motion.div>  
+      </a>       
       </Col>
     
        
