@@ -19,15 +19,15 @@ function About() {
             <Row>
               <Col sm={6} md={8}>
                 <h1>About</h1>
-                <p>Hi<br /><br /><br /></p>
+                <p>Hello, I'm Ou Sei. I came to Japan from China in 2023. I used to study finance and now I'm learning IT. My goal is to become a full-stack engineer. My technology stack includes Java, SpringBoot, React, and MySQL. You can see my works below!<br /><br /><br /></p>
                 <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="aboutab">
                   <Tab eventKey="home" title="Experience">
                     <br />
-                    <p className='aboutp'>Tab content for Experience</p>
+                    <p className='aboutp'>Java 1 year<br />HTML+CSS 1 year<br />JavaScript 3 month<br />SpringBoot 3 month<br />React 3 month<br />SQL 8 month</p>
                   </Tab>
                   <Tab eventKey="profile" title="Certifications">
                     <br />
-                    <p className='aboutp'>Tab content for Certifications</p>
+                    <p className='aboutp'>JAVA Silver <br />Fundamental Information Technology Engineer<br />TOEIC 880<br />JLPT N1</p>
                   </Tab>
                 </Tabs>
               </Col>
